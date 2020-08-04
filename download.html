@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link href="styleMain.css" rel="stylesheet" type="text/css">
+        <link href="downloadStyles.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata|Play' rel='stylesheet' type='text/css'>
+        <script src="checkQuantities.js"></script>
+        <title>Download RAM</title>
+    </head>
+    <body>
+    <div class="content">
+    <h1>Download:</h1>
+    <div class="infoBox">
+    We offer a wide variaty of sizes ranging from 2GB all the way up to 32GB. Be sure to check the availablity of the RAM you want to download to make sure we have some or if not just wait until some becomes available
+    <table class="ramSelect">
+    <tr>
+        <th>Amount</th>
+        <th>Availablility</th>    
+    </tr>
+    <tr>
+        <th>2GB</th>
+        <th id="avail2GB">135</th>    
+    </tr> 
+    <tr>
+        <th>4GB</th>
+        <th id="avail4GB">89</th>    
+    </tr>
+    <tr>
+        <th>8GB</th>
+        <th id="avail8GB">54</th>    
+    </tr>     
+    <tr>
+        <th>16GB</th>
+        <th id="avail16GB">29</th>    
+    </tr> 
+    <tr>
+        <th>32GB</th>
+        <th id="avail32GB">12</th>    
+    </tr>         
+    </table>
+    </div>
+    <select class="selectRam" id="ramAmount">
+    <option value="2">2GB</option>  
+    <option value="4">4GB</option>    
+    <option value="8">8GB</option>    
+    <option value="16">16GB</option>    
+    <option value="32">32GB</option>      
+    </select>
+    <a href="downloadRAM.html">
+    <div class="redirectButton" id="redirectButton" onclick="getRam()">Download Ram >></div>
+    </a>
+    </div>   
+    </body>
+</html>

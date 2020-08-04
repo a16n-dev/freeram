@@ -1,0 +1,74 @@
+h1{
+    padding: 30px;
+    font-size: 250%;
+}
+div.infoBox{
+    width: 750px;
+    margin: auto;
+    font-size: 110%;
+}
+table.ramSelect{
+    width: 500px;
+    margin: auto;
+    padding: 25px;
+    font-family: 'Play', sans-serif;
+}
+tr{
+    height: 30px;
+}
+select.selectRam{
+    font-size: 150%;
+    background-color: #000;
+    border: 2px solid rgb(0,255,0);
+}
+div.redirectButton{
+    background-color: rgb(0,0,0);
+    height: 75px;
+    line-height: 75px;
+    font-size: 200%;
+    width: 300px;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid rgb(0,255,0)
+}
+div.redirectButton:hover{
+    cursor: pointer;
+    background-color: rgb(0,255,0);
+    color: black;
+}
+div.redirectButtonSmall{
+    background-color: rgb(0,0,0);
+    height: 30px;
+    line-height: 30px;
+    font-size: 130%;
+    width: 200px;
+    margin: auto;
+    margin-top: 30px;
+    border: 3px solid rgb(0,255,0)
+}
+div.redirectButtonSmall:hover{
+    cursor: pointer;
+    background-color: rgb(0,255,0);
+    color: black;
+}
+div.loadBar{
+    width: 300px;
+    height: 50px;
+    border: 2px solid rgb(0,255,0);
+    padding: 5px;
+    margin: auto;
+    margin-top: 50px;
+}
+div.progBar{
+    height: inherit;
+    width: 3px;
+    position: absolute;
+    background-color: rgb(0,255,0);
+}
+div.progNum{
+    position: relative;
+    left: 200px;
+    height: 50px;
+    line-height: 50px;
+    font-size: 150%;        
+}

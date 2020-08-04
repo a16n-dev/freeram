@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="utf-8" />
+        <link href="styleMain.css" rel="stylesheet" type="text/css">
+        <link href="downloadStyles.css" rel="stylesheet" type="text/css">
+        <link href='https://fonts.googleapis.com/css?family=Inconsolata|Play' rel='stylesheet' type='text/css'>
+        <script src="pageData.js"></script>
+        <title>Downloading</title>
+    </head>
+    <body onload="loadPageData()" id="body">
+    <div class="content">
+        <h1 id="header" class="header"></h1>     
+        <div class="infoText" id="infoText">Loading...</div>
+        <div class="redirectButtonSmall" id="progStart" onclick="runProgBar()">BEGIN DOWNLOAD</div>
+        <div class="loadBar">
+            <div class="progBar" id="progBar"></div>
+            <div class="progNum" id="progNum">0%</div>
+        </div>
+    </div>
+    </body>
+</html>
